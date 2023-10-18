@@ -3,9 +3,15 @@
  margin: 0;
  font-style: none;
 }
+.bacgoundsaya{
+    background-image: url("/img/bg_fix.jpg");
+    /* height: 500px; */
+    width: 100%;
+}
 .homepage{
     height: 100vh;
     width: 100%;
+    display: flex;
     background-color: #ffcc70;
     text-decoration: none;
 }
@@ -14,13 +20,15 @@
 }
 nav{
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgba(248, 158, 56, 0.925);
+    background-color: rgba(54, 50, 45, 0.925);
     border-bottom: 2px solid rgb(255, 255, 255);
 }
 .logobio{
@@ -113,5 +121,5 @@ nav ul li a:hover{
 }
 .about_me img{
     width: 100%;
-    
+
 }
